@@ -2,7 +2,7 @@
 
 A php web application which contains a lot of common critical security flaws (like xss, sql injection, local file disclosure, etc.). This application was developed only for study purposes.
 
-You are welcome to add new features in this application provided that the feature has some web vulnerability!
+You are welcome to add new features in this application provided the feature has some web vulnerability!
 
 
 # Requirements
