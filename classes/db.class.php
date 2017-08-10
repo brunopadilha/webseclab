@@ -2,7 +2,7 @@
 	class db {
 		public $conexao;
 		
-		public function __construct($server = 'localhost', $user = 'root' , $pass = 'yourdbpassword' , $db = 'webseclab') {
+		public function __construct($server = 'localhost', $user = 'yourdbuser' , $pass = 'yourdbpass' , $db = 'webseclab') {
 			$this->conexao = new mysqli($server, $user, $pass, $db);
 			if (mysqli_connect_errno())
 			{
